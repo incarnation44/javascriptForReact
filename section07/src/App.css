@@ -1,42 +1,51 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* 전체 가운데 정렬 */
+.App {
   text-align: center;
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* 제목 */
+h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 현재 카운트 */
+h2 {
+  margin: 20px 0;
+  font-size: 28px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* 짝수입니다 */
+h3 {
+  color: orange;
+  margin-bottom: 20px;
 }
 
-.card {
-  padding: 2em;
+/* 입력창 */
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
-.read-the-docs {
-  color: #888;
+/* 버튼 영역 */
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* 버튼 hover 효과 */
+button:hover {
+  background-color: #e0e0e0;
 }
