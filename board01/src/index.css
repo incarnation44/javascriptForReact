@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "BMHANNAAir";
+  src: url("/BMHANNAAir_ttf.ttf");
+}
+
+body * {
+  font-family: "BMHANNAAir";
+}

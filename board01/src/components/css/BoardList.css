@@ -1,0 +1,12 @@
+.board-list-wrapper {
+  width: 100%;
+  background: linear-gradient(180deg, #fffaf3 0%, #fdf1e6 100%);
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.board-list-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
