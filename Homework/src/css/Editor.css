@@ -1,0 +1,57 @@
+/* 전체 화면 */
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* 제목 */
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* 입력 박스 카드 */
+.editor {
+  width: 420px;
+  margin: 0 auto;
+  padding: 25px;
+  background: #252525;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* input */
+.editor input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #2f2f2f;
+  color: white;
+  font-size: 14px;
+}
+
+.editor input::placeholder {
+  color: #aaa;
+}
+
+/* 버튼 */
+.editor button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4f6cff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.editor button:hover {
+  background: #3c54d6;
+}

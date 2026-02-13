@@ -1,0 +1,67 @@
+.item {
+  width: 420px;
+  margin: 12px auto;
+  padding: 14px 16px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 왼쪽 */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.left input {
+  width: 18px;
+  height: 18px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.score {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.result {
+  font-size: 12px;
+  color: #9aa3ff;
+}
+
+/* 버튼 */
+.btns {
+  display: flex;
+  gap: 6px;
+}
+
+.btns button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.edit {
+  background: #444;
+  color: white;
+}
+
+.delete {
+  background: #c94a4a;
+  color: white;
+}
